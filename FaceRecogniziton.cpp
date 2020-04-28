@@ -120,7 +120,7 @@ int main(int argc, char** argv)
 
 		}
 		cv::imshow(faceRecognitionWindow, frame);
-		cv::waitKey(10000);
+		cv::waitKey(1);
 		char c = cv::waitKey(10);
 		//按键q退出循环
 		if (c == 27) {
